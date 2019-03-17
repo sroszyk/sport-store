@@ -1,7 +1,5 @@
 language: csharp
 solution: SportStore.sln
-script: 
-  - xbuild /p:Configuration=Release SportStore.sln
 branches:
   only:
   - master
