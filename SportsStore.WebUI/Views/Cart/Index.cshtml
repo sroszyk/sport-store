@@ -22,6 +22,14 @@
                 <td class="text-left">@line.Product.Name</td>
                 <td class="text-right">@line.Product.Price.ToString("c")</td>
                 <td class="text-right">@((line.Quantity * line.Product.Price).ToString("c"))</td>
+                <td>
+                    @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                    {
+                        @Html.Hidden("ProductId", line.Product.ProductID)
+                        @Html.HiddenFor(x => x.ReturnUrl)
+                        <input class="btn btn-sm btn-warning" type="submit" value="Usuń" />
+                    }
+                </td>
             </tr>
         }
     </tbody>
@@ -35,4 +43,5 @@
 
 <div class="text-center">
     <a class="btn btn-primary" href="@Model.ReturnUrl">Kontynuuj zakupy</a>
+    @Html.ActionLink("Złóż zamówienie", "Checkout", null, new { @class = "btn btn-primary" })
 </div>
