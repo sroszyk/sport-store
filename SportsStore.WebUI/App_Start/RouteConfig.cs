@@ -38,7 +38,7 @@ namespace SportsStore.WebUI
                 new { controller = "Product", action = "List" },
                 new { page = @"\d+" });
 
-            routes.MapRoute(null, "{controller}/{action}");
+            routes.MapRoute(null, "{controller}/{action}/{id}", new { controller = "Product", action = "List", id = UrlParameter.Optional });
         }
     }
 }

@@ -51,3 +51,9 @@
 /SportsStore.UnitTests/bin/Release
 /SportsStore.Domain/obj/Release
 /SportsStore.Domain/bin/Release
+/.vs/SportStore/v14
+/SportsStore.WebUI/Scripts/jquery.validate.unobtrusive.min.js
+/SportsStore.WebUI/Scripts/jquery.validate.unobtrusive.js
+/SportsStore.WebUI/Scripts/jquery.validate.min.js
+/SportsStore.WebUI/Scripts/jquery.validate.js
+/SportsStore.WebUI/Scripts/jquery.validate-vsdoc.js

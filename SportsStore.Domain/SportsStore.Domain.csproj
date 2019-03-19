@@ -85,11 +85,28 @@
     <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\ShippingDetails.cs" />
+    <Compile Include="Migrations\201902131118491_InitialCreate.cs" />
+    <Compile Include="Migrations\201902131118491_InitialCreate.Designer.cs">
+      <DependentUpon>201902131118491_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903191923335_First_Unwanted_Migration.cs" />
+    <Compile Include="Migrations\201903191923335_First_Unwanted_Migration.Designer.cs">
+      <DependentUpon>201903191923335_First_Unwanted_Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902131118491_InitialCreate.resx">
+      <DependentUpon>201902131118491_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903191923335_First_Unwanted_Migration.resx">
+      <DependentUpon>201903191923335_First_Unwanted_Migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
