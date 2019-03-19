@@ -44,3 +44,11 @@
 /SportsStore.UnitTests/obj/Debug
 /packages
 /mails
+/.vs/SportStore/v14
+/Nowy folder
+/SportsStore.WebUI/obj/Release
+/SportsStore.UnitTests/obj/Release
+/SportsStore.UnitTests/bin/Release
+/SportsStore.Domain/obj/Release
+/SportsStore.Domain/bin/Release
+/.sonarqube
