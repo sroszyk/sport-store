@@ -93,6 +93,10 @@
     <Compile Include="Migrations\201903191923335_First_Unwanted_Migration.Designer.cs">
       <DependentUpon>201903191923335_First_Unwanted_Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903251820133_Add image data.cs" />
+    <Compile Include="Migrations\201903251820133_Add image data.Designer.cs">
+      <DependentUpon>201903251820133_Add image data.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -106,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903191923335_First_Unwanted_Migration.resx">
       <DependentUpon>201903191923335_First_Unwanted_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903251820133_Add image data.resx">
+      <DependentUpon>201903251820133_Add image data.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
